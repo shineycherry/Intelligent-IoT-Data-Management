@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import axios from "axios";
 import RealTimeGraph from "./RealTimeGraph";
+import html2canvas from "html2canvas";
+import { jsPDF } from "jspdf";
 import "./AnalyzePanel.css";
 
 const AnalyzePanel = () => {
